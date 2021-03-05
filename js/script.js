@@ -28,7 +28,9 @@ var button = document.getElementById("calculate").addEventListener("click",funct
                 sum -= sum *0.2;
                 console.log("Coupons rimasti: " + coupons.length);
                 console.log(coupons);
-
+            }
+            else{
+                alert("Coupon non Valido");
             }
         }
         total.innerText = sum.toFixed(2) + "€";
