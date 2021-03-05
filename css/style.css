@@ -13,3 +13,77 @@
     display: table;
 }
 /*********************/
+
+body{
+    background-color: #FFF5E2;
+
+}
+main{
+    width: 60vw;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #FDBB40;
+    height: 15vh;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    font-weight: bold;
+}
+.logo{
+    transform: translate(50%,50%);
+    -webkit-transform: translate(50%,50%);
+    -moz-transform: translate(50%,50%);
+    -ms-transform: translate(50%,50%);
+    -o-transform: translate(50%,50%);
+}
+
+.content{
+    padding: 50px 60px 100px 80px;
+    background-color: #fff;
+    height: 70vh;
+    width: 100%;
+}
+.ingredients{
+    width: 100%;
+}
+
+h2{
+    margin-top: 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+li{
+    display: inline-block;
+    width: calc(50% - 40px);
+    display: flex;
+    align-items:  center;
+    margin: 20px;
+}
+
+li > img{
+    width: 40px;
+    margin-right: 10px;
+}
+li > input{
+margin-right: 10px;
+}
+
+
+footer{
+    background-color: #D33359;
+    height: 15vh;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

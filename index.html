@@ -14,6 +14,51 @@
 
 <body>
 
+    <main>
+        <header>
+            <h1>create your burger</h1>
+            <div class="logo">
+                <img src="img/burger-top.png" alt="burger-logo">
+            </div>
+        </header>
+
+        <!-- Content -->
+        <div class="content">
+            <input type="text" name="burgerName" id="burgerName" placeholder="Name Your Burger">
+
+
+            <!-- Ingredients -->
+            <div class="ingredients">
+                <h2>Ingredients</h2>
+
+                <ul>
+                    <li> <img src="img/cheese.svg" alt=""> <input class="ingredient" value="7" type="checkbox" name="cheese" id="cheese"><label for="cheese">Cheese</label></li>
+                    <li> <img src="img/fried-egg.svg" alt=""> <input class="ingredient" value="9" type="checkbox" name="egg" id="egg"><label for="egg">Egg</label></li>
+                    <li> <img src="img/mustard.svg" alt=""> <input class="ingredient" value="4" type="checkbox" name="mustard" id="mustard"><label for="mustard">Mustard</label></li>
+                    <li> <img src="img/tomato.svg" alt=""> <input class="ingredient" value="3" type="checkbox" name="tomato" id="tomato"><label for="tomato">Tomato</label></li>
+                    <li> <img src="img/lettuce.svg" alt=""> <input class="ingredient" value="5" type="checkbox" name="lettuce" id="lettuce"><label for="lettuce">Lettuce</label></li>
+                    <li> <img src="img/ketchup.svg" alt=""> <input class="ingredient" value="2" type="checkbox" name="ketchup" id="ketchup"><label for="ketchup">Ketchup</label></li>
+                </ul>
+
+                <div class="discount_coupon">
+                    <label for="coupon">Discount Coupon</label>
+                    <input type="text" name="coupon" id="coupon">
+                </div>
+                <button id="calculate">Calculate</button>
+            </div>
+            <!-- /Ingredients -->
+
+        </div>
+        <!-- /Content -->
+
+        <footer>
+            <div>
+                Your Price
+            </div>
+            <div id="total">50</div>
+        </footer>
+    </main>
+
 <script src="js/script.js"></script>
 </body>
 
